@@ -70,7 +70,7 @@ function InvoiceForm() {
         total,
       };
 
-      await fetch('http://localhost:5000/api/invoices', {
+      await fetch('https://invoice-generatorbackend.vercel.app/api/invoices', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
